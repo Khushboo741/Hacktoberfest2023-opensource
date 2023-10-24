@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan my travel</title>
+</head>
+<body>
+    <meta name="hello" content="description">
+    <table border="4" bgcolor="yellowgreen" cellspacing="4" cellpadding="4" align="center">
+        <tr>
+            <td>
+                <form action="backend.php">
+                    <label for name="name">From</label>
+                    <div>
+                        <input type="text" name="myname" id="name">
+                    </div>
+                    
+                    <label for name="name">To</label> <div>
+                        <input type="text"name="myname" id="myname">
+                    </div>
+                    <div>
+                        Date:<input type="date" name="Mydate">
+                    </div>
+                    <div><label for="Class"name="Myclass">Class</label>
+                        <select name="Class">
+                        <option value="First">First</option>
+                        <option value="Second">Second</option>
+                        </select>
+                    </div>
+                    <div>
+                    Ticket Type: i-ticket:<input type="radio" name="myradio1">e-ticket:<input type="radio" name="myradio2">
+                    Quota:<input type="checkbox" name="quota">
+                </div>
+                <div>
+                    Find Train:<input type="submit" value="Find train">
+                    Reset:<input type="reset" value="reset">
+                </div>
+                </form>
+            </td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
